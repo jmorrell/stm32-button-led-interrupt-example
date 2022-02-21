@@ -12,7 +12,7 @@ I hope this repo is useful to you as you get started with embedded Rust.
 
 - clone this repo
 - Plug your STLink-v2 into your computer with the headers connected to the 4 pins of the Black Pill board. Match up GND to GND, SWSCK to SWSCK, etc.
-- `cargo install probe-run"
+- `cargo install probe-run`
 - `cargo install cargo-embed`
 
 ## Building and Flashing
