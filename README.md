@@ -1,6 +1,6 @@
-# stm32f411 Rust Blinky LED
+# stm32f411 Rust Blinky LED w/ Interrupts
 
-A Rust microcrontroller "hello, world" for the STM32f411 "Black Pill" board.
+A Rust microcrontroller minimal interrupt example for the STM32f411 "Black Pill" board.
 
 ![Blinking LED photo of the board](https://user-images.githubusercontent.com/175496/154872263-3b432685-2bfe-4557-bd3e-8ba7c4261147.jpg)
 
@@ -20,4 +20,4 @@ I hope this repo is useful to you as you get started with embedded Rust.
 ## Building and Flashing
 
 You should be able to build using `cargo build`, and to flash the board using `cargo embed`.
-After flashing you should see "hello world" printed to the terminal every 2 seconds.
+After flashing you should see "registered interupt!" printed to the terminal, and pressing the built-in user button should light up the built-in LED.
