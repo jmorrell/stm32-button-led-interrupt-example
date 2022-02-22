@@ -2,7 +2,7 @@
 
 A Rust microcrontroller minimal interrupt example for the STM32f411 "Black Pill" board.
 
-![Blinking LED photo of the board](https://user-images.githubusercontent.com/175496/154872263-3b432685-2bfe-4557-bd3e-8ba7c4261147.jpg)
+![A finger pressing the onboard button and blinking the onboard LED](https://user-images.githubusercontent.com/175496/155049188-0c8cd3d7-6548-40f6-950f-4d8cff97d3c3.gif)
 
 These are my first steps learning embedded Rust, so my confidence on correctly setting
 everything up here is fairly low, however at least as of Feb 2022, this project setup
